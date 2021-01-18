@@ -194,10 +194,10 @@
                                 <img src="../img/technology/css.svg" alt="icon css">
                             </div>
                             <div class="links">
-                                <a href="#" target="_blank">
+                                <a href="https://pavlenuch.github.io/portfolio/" target="_blank">
                                     <font-awesome-icon :icon="['fas', 'eye']" class="link_icon"/>
                                 </a>
-                                <a href="#" target="_blank">
+                                <a href="https://github.com/pavlenuch/portfolio" target="_blank">
                                     <font-awesome-icon :icon="['fas', 'code']" class="link_icon"/>
                                 </a>
                             </div>
