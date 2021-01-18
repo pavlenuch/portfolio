@@ -14,6 +14,7 @@
                 <span class="nav_text">WORKS</span>
             </router-link>
         </div>
+        
         <a href="./doc/Resume_Pavlenko.pdf" download><img src="@/assets/cloud.svg" alt="cloud" class="icon_cloud"></a>
     </nav>
 </template>
