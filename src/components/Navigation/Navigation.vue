@@ -1,15 +1,15 @@
 <template>
     <nav class="navigation">
         <div class="wrap_nav">
-            <router-link to="/about" class="nav_item">
+            <router-link to="/portfolio/about" class="nav_item">
                 <font-awesome-icon :icon="['far', 'user']" class="nav_icon"/>
                 <span class="nav_text">ABOUT</span>
             </router-link>
-            <router-link to="/resume" class="nav_item">
+            <router-link to="/portfolio/resume" class="nav_item">
                 <font-awesome-icon :icon="['far', 'id-badge']" class="nav_icon"/>
                 <span class="nav_text">RESUME</span>
             </router-link>
-            <router-link to="/works" class="nav_item">
+            <router-link to="/portfolio/works" class="nav_item">
                 <font-awesome-icon :icon="['fas', 'briefcase']" class="nav_icon"/>
                 <span class="nav_text">WORKS</span>
             </router-link>

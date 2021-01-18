@@ -9,7 +9,7 @@ Vue.use(Router)
 export default new Router({
     mode: 'history',
     routes: [    
-        { path: '/portfolio/', redirect: '/portfolio/about' },
+        { path: '/portfolio/about', redirect: '/portfolio/about' },
         { path: '/portfolio/about', component: About },
         { path: '/portfolio/resume', component: Resume },
         { path: '/portfolio/works', component: Works },
