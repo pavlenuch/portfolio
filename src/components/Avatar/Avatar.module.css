@@ -1,0 +1,126 @@
+.avatar {
+  width: 470px;
+  height: 100%;
+  background-color: #242424;
+  box-shadow: 0 32px 84px 0 rgba(0,0,0,0.5);
+  z-index: 1000;
+  font-family: 'Poppins', sans-serif;
+}
+.wrap-photo {
+  clip-path: polygon(5px 310px, 320px 360px, 470px 150px, 470px 110px, 150px 0, 100px 0);
+  background: url(../../img/avatar.jpg) no-repeat;
+  background-position: center 32%;
+  background-size: 170% auto;
+  height: 380px;
+  width: 100%;
+}
+.name {
+  font-size: 32px;
+  text-align: center;
+}
+.prof {
+  color: #00AF75;
+  text-align: center;
+}
+.mail,
+.links {
+  width: 100%;
+  margin-top: 65px;
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  width: 30px;
+  cursor: pointer;
+  margin: 0 15px;
+}
+.mail {
+  margin-top: 15px;
+  align-items: center;
+}
+.mail > span {
+  color: #00AF75;
+  font-size: 18px;
+}
+.icon-mail {
+  color: #00AF75;
+  font-size: 24px;
+  margin-right: 10px;
+}
+@media (max-width: 1199px) {
+  .avatar {
+    width: 260px;
+  }
+  .mail > span {
+    font-size: 16px;
+  }
+  .wrap-photo {
+    clip-path: polygon(5px 310px, 320px 360px, 470px 150px, 470px 110px, 150px 0, 30px 0);
+    background-position: 43% 28%;
+    background-size: 250% auto;
+  }
+  .links {
+    margin-top: 35px;
+  }
+  .mail {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .avatar {
+    width: 433px;
+    height: 560px;
+    border-bottom: 1px solid #474747;
+  }
+  .wrap-photo {
+    clip-path: polygon(5px 310px, 320px 360px, 470px 150px, 470px 110px, 150px 0, 100px 0);;
+    background-position: center 32%;
+    background-size: 170% auto;;
+  }
+  .mail,
+  .links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 510px) {
+  .avatar {
+    width: 100%;
+    height: 480px;
+  }
+  .wrap-photo {
+    clip-path: none;
+    height: 250px;
+  }
+}
+@media (max-width: 320px) {
+  .avatar {
+    height: 405px;
+  }
+  .wrap-photo {
+    height: 200px;
+    background-position: 43% 32%;
+    background-size: 230% auto;;
+  }
+  .name {
+    font-size: 24px;
+    margin-top: 5px;
+  }
+  .prof {
+    font-size: 18px;
+  }
+  .icon {
+    width: 25px;
+    margin: 0 12px;
+  }
+  .mail {
+    margin-top: 10px;
+  }
+  .mail > span {
+    font-size: 14px;
+  }
+  .icon-mail {
+    font-size: 20px;
+  }
+}
