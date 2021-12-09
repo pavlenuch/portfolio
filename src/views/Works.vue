@@ -233,7 +233,7 @@
                                 <img src="../img/technology/css.svg" alt="icon css">
                             </div>
                             <div class="links">
-                                <a href="https://pavlenuch.github.io/portfolio/" target="_blank">
+                                <a href="https://pavlenko-portfolio.herokuapp.com" target="_blank">
                                     <font-awesome-icon :icon="['fas', 'eye']" class="link_icon"/>
                                 </a>
                                 <a href="https://github.com/pavlenuch/portfolio" target="_blank">
