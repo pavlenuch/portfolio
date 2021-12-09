@@ -6,6 +6,27 @@
         </div>
         <div class="wrap_carts">
             <div class="left_lane">
+                <div class="wrap_cart card-16">
+                    <div class="wrap_under-blok">
+                        <div class="under-blok">
+                            <div class="wrap_icons">
+                                <img src="../img/technology/nodejs.png" alt="icon node">
+                                <img src="../img/technology/mongodb.png" alt="icon mongodb">
+                                <img src="../img/technology/react.svg" alt="icon react">
+                                <img src="../img/technology/ts.png" alt="icon ts">
+                                <img src="../img/technology/redux.png" alt="icon redux">
+                            </div>
+                            <div class="links">
+                                <a href="https://books-fullstack.herokuapp.com/" target="_blank">
+                                    <font-awesome-icon :icon="['fas', 'eye']" class="link_icon"/>
+                                </a>
+                                <a href="https://github.com/pavlenuch/books_fullstack_app" target="_blank">
+                                    <font-awesome-icon :icon="['fas', 'code']" class="link_icon"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="wrap_cart card-1">
                     <div class="wrap_under-blok">
                         <div class="under-blok">
@@ -26,7 +47,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div class="wrap_cart  card-3">
                     <div class="wrap_under-blok">
@@ -39,10 +59,10 @@
                                 <img src="../img/technology/css.svg" alt="icon css">
                             </div>
                             <div class="links">
-                                <a href="https://github.com/pavlenuch/todo-react" target="_blank">
+                                <a href="https://pavlenuch.github.io/todo-react/" target="_blank">
                                     <font-awesome-icon :icon="['fas', 'eye']" class="link_icon"/>
                                 </a>
-                                <a href="https://pavlenuch.github.io/todo-react/" target="_blank">
+                                <a href="https://github.com/pavlenuch/todo-react" target="_blank">
                                     <font-awesome-icon :icon="['fas', 'code']" class="link_icon"/>
                                 </a>
                             </div>
@@ -144,6 +164,25 @@
                 </div>
             </div>
             <div class="right_lane">
+                <div class="wrap_cart card-15">
+                    <div class="wrap_under-blok">
+                        <div class="under-blok">
+                            <div class="wrap_icons">
+                                <img src="../img/technology/react.svg" alt="icon react">
+                                <img src="../img/technology/js.svg" alt="icon js">
+                                <img src="../img/technology/css.svg" alt="icon css">
+                            </div>
+                            <div class="links">
+                                <a href="http://yangavrilov.com/" target="_blank">
+                                    <font-awesome-icon :icon="['fas', 'eye']" class="link_icon"/>
+                                </a>
+                                <a href="https://github.com/pavlenuch/gavrilov" target="_blank">
+                                    <font-awesome-icon :icon="['fas', 'code']" class="link_icon"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="wrap_cart  card-2">
                     <div class="wrap_under-blok">
                         <div class="under-blok">
@@ -442,6 +481,14 @@
     }
     .card-14 {
         background: url(../img/resume.png) center top no-repeat;
+        background-size: auto 100%; 
+    }
+    .card-15{
+        background: url(../img/gavrilov.png) center top no-repeat;
+        background-size: auto 100%; 
+    }
+    .card-16{
+        background: url(../img/books_fullstak.png) center top no-repeat;
         background-size: auto 100%; 
     }
     .wrap_icons {

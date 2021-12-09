@@ -5,33 +5,30 @@
             <h3>About <span class="first_letter">Me</span></h3>
         </div>
         <div class="years_city">
-            <span>32 years</span> <span class="line">/</span> <span>Minsk (Borovlyany)</span>
+            <span>33 years</span> <span class="line">/</span> <span>Minsk (Borovlyany)</span>
         </div>
         <p class="bout_me_text salute">Hello! <br>I`m Aleksandr, front-end developer (React) & QA Engineer.</p>
         <p class="bout_me_text">
-            I have the following web-technologies:<br>
-            <span class="green">HTML, CSS</span> (SCSS, Flexbox), <span class="green">JavaScript, ReactJS, Git, Figma, Scratch</span>.
+            I have the following technologies:<br>
+            <span class="green">HTML, CSS</span> (SCSS, Flexbox), <span class="green">JavaScript, ReactJS, Redux, TypeScript, Git, Figma, Scratch</span>.
         </p>
         <p class="bout_me_text">
-            I have basic knowledge in the following technologies: 
-            <br><span class="green">Redux, VueJS, SQL, Webix, Jquery, C, Python</span>.
+            Basic knowledge in technology: 
+            <br><span class="green">NodeJS, VueJS, Webix, Python, Jquery, C</span>.
         </p>
         <p class="bout_me_text">
-            I also own technologies in test automation:
-            <br>- Testing the API with "<span class="green">Postman</span>".
-            <br>- Load testing with "<span class="green">Jmeter</span>".
-            <br>- Testing web projects with "<span class="green">TestCafe Studio</span>".
+            AQA technologies: 
+            <br><span class="green">Cypress, TestCafe Studio, Postman, Jmeter.</span>.
         </p>
         <p class="bout_me_text mobile-bout_me_text">
-            English - A1 (I study on courses Englishdom).
+            English - Elementary (A1).
         </p>
         <p class="bout_me_text mobile-bout_me_text">
             Link to my repository with projects on github:
             <a href="https://github.com/pavlenuch" target="_blank" class="link">Click</a>
-            
         </p>
         <p class="bout_me_text mobile-bout_me_text_none">
-            English - A1 (I study on courses https://www.englishdom.com/ ).
+            English - Elementary (A1).
         </p>
         <p class="bout_me_text mobile-bout_me_text_none">
             Link to my repository with projects on github:<br>

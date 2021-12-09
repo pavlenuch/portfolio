@@ -13,13 +13,14 @@
 
                 <div class="experience-cart">
                     <div class="data">05.2020 - Present</div>
-                    <div class="name">QA Engineer & <br>front-end developer(React)</div>
+                    <div class="name">QA Automation Engineer & <br>Frontend (ReactJS) developer</div>
                     <div class="company">The Corporation "Galaxy"</div>
                     <p class="descriptions">
-                        - Development of web applications in JS, ReactJS.
-                        <br> -Testing the API with "Postman".
+                        Development of web applications.
+                        <br>Technology Stack: JS, React (Fucntional and Class Components, Hooks, Context, React Router etc.), SCSS, Redux, TS.
+                        <br>- Testing web projects with "TestCafe Studio" and "Cypress".
+                        <br>- Testing the API with "Postman".
                         <br>- Load testing with "Jmeter".
-                        <br>- Testing web projects with "TestCafe Studio".
                     </p>
                     <div class="line"></div>
                 </div>
@@ -71,6 +72,20 @@
                     <div class="name">Historian-archivist. Teacher</div>
                     <div class="company">Belarusian state University</div>
                     <p class="descriptions">Historical Faculty. Specialization: Archived Informatics.</p>
+                    <div class="line"></div>
+                </div>
+                                <div class="experience-cart">
+                    <div class="data">2021</div>
+                    <div class="name">Cypress на реальном проекте для начинающих QA Automation</div>
+                    <div class="company">Udemy</div>
+                    <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-27adf197-bb8c-42f3-9923-afe0c4d0971a.jpg" target="_blank" class="link">Link to the certificate</a> 
+                    <div class="line"></div>
+                </div>
+                                <div class="experience-cart">
+                    <div class="data">2021</div>
+                    <div class="name">Программирование на Python</div>
+                    <div class="company">Stepik</div>
+                    <a href="https://stepik.org/cert/948389" target="_blank" class="link">Link to the certificate</a> 
                     <div class="line"></div>
                 </div>
                 <div class="experience-cart">
